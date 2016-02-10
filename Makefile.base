@@ -24,7 +24,7 @@ CFLAGS+= -Wno-write-strings
 CFLAGS+= -Wall -Werror
 CFLAGS+= -L/usr/lib/irods
 
-SERVER_CFLAGS= -DRODS_SERVER
+SERVER_CFLAGS= -DRODS_SERVER -DRODS_CAT
 
 INC = -I/usr/include/irods -I/usr/include/irods/boost -I${INCDIR} ${EXTRAINCS}
 
